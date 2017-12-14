@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.msj.advancetabbedactivity.AnimationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Birds are a beauty" />
+
+    <ImageView
+        android:id="@+id/birdImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
